@@ -17,3 +17,9 @@ Question 4:
 		-Fork: A clone on Github
 		-Clone: A copy of a repository (aka a dictionary with version controll hitstory)
 		-branch: A versioncontroll history line, where each file has a parent version of itself that it displays related changes to.
+
+Question 5:
+"What is the benefit of having a copy of the last known state of the remote stored locally?"
+
+	Answer:
+		
