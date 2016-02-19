@@ -1,0 +1,69 @@
+This is my lesson 1 file: 
+I am claiming this to be with me for all my life so that i can start recreating this stuff in my command line interface. 
+
+question 2: 
+"How could having easy acces to the entire history of a file make you a more efficient programmer in the long term?"
+
+	answer: 
+		it could help me stay up to date with the development methods i am using. I can go back to an old project and see how i went about developing the project. I can easily follow my own footsteps and recreatingeview them again from a more advanced focus.
+
+	answer: 
+
+question 3: 
+"What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved like Google Docs does"
+	
+	answer: 
+		Pros for "automatic":
+			- saves me in case of system breakdown
+		
+		Negatives for "automatic":
+			- Clutters my history with unrelated content that would be a pain to work trough. 
+			- I would have no real clue what timestamp to look for what change so i would have to go trough them in order.
+			- 
+
+		Pros for "manually":
+			- Creates only the history breaks that seem reasonable for me. 
+			- So making it easy to refer back to something for me later on because the structure appeals to my thinking about the problem. 
+
+		Negatives for "manually":
+			- My own logic might no be so reasonable for someone else going trough the code. 
+			- i just might forget about a breakpoint and can not refer back to it later on. So i would have to go back to a bigger change and manually work my way back to the state i wanted to refer back to. 
+			
+question 4: 
+"Why do dyou think some version control sysetms, like Git, allow saving multiple files in once commit, wehile others, like Google Docs, treat each file seperately?"
+
+question 5: 
+"How can you use the commands git log and git diff to view the history of files?"
+
+	answer: 
+		Change into the root of the git repo you are working with, use the "git log" command to bring up the history of all commits made, search along the description till you find the appropriate change and then use "git diff <id1> <id2>" to compare the interesting commit with its prior commit so get details on the changes made.
+
+
+
+
+	answer: 
+		It seems to depend on the usage. In progamming version controll the files are mostly highly interdependent, following a clear logical structure where changes ripple down the inheritance line in the programm. In a word or excel document all the relevant information is contained within the specific document itself. Making a version control easy.
+
+
+question 5: 
+"How might using version control make you more confident to make changes that could break something?"
+
+	answer: 
+		as i can always easily refer back to a working version before i did change something, i can just introduce a new feature and check out how it behaves. If i end up running into problems i did not realize at the beginning (dependencies etc.) i can just refer back to the original and try something else instead.As it just involves 2 simple commands i can use directly from the bash it's really always there for me to work on. AWESOME!!
+ Concept Map: 
+
+ 	Version Control Systems in use: 
+ 		Manual saving
+ 		dropbox
+ 		google docs
+ 		wikipedia
+ 		GIT 
+ 		SVN
+
+	GIT Commands: 
+		log (brings up the commits in a git repository)
+		diff (Takes two versions and compares the differences)
+		clone (clones an existing repository on github)
+		
+	Git Best-Practice:
+		"one commit per logical change" - Commit in parts of logically seperable manner. 
