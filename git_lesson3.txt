@@ -35,3 +35,11 @@ Question 6:
 		Or we try to force unrelated programming in parts trying to avoid relationships and interdependencies in the code as much as possible. 
 
 		All this seems to be really hard to do and with possible messy outcomes. Summarizing it up, i am really not able to clearly imagine doing it without version control.. but i guess this was just normal until a couple of years ago. 
+
+Question 7:
+"When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?"
+
+	Answer:
+		if i am working on the code base in a way that i would otherwise risk breaking central parts of my programming. 
+		As the use of branches secures the seclusion of all changes within a single environment that i can easily switch in and out of by just checking it out. 
+		If i was to devise incremental and planed steps in the small areas of the codebas or just work on individual functions i would propably like to work in commits on the master itself. 
