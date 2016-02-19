@@ -9,3 +9,11 @@ Question 2:
 	Answer:
 		- Because i want to make sure that everything is finalized to a production ready state the moment i make it publicly available. 
 		- So i want to have a history of commits that i need while working on the project locally, and be able to clean up all the history before actually pushing it.
+
+Question 4:
+"Describe the differences between forks, clones, and branches. When would you use one instead of another?"
+
+	Answer:
+		-Fork: A clone on Github
+		-Clone: A copy of a repository (aka a dictionary with version controll hitstory)
+		-branch: A versioncontroll history line, where each file has a parent version of itself that it displays related changes to.
