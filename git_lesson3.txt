@@ -22,4 +22,16 @@ Question 5:
 "What is the benefit of having a copy of the last known state of the remote stored locally?"
 
 	Answer:
-		
+
+Question 6:
+"How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?"
+
+	Answer:
+		Well.... i guess i would use a google doc sheet to work on the same file with different people at the same time, so everyone can at least check that we are working on the same code. 
+		As we would possibly run into problems with accessing the same kind of code parts at the same time, we would also have to chat constantly about what we are about to do and coordinate us. We would have to log in and out of sessions publicly so everyone knows what state anyone has left the project on. 
+		This part would have to be copied down into unchangable formats like an email to preserve versions, or we save different copies of the code. 
+		As we would have to copy the code in order to run it, we would produce a lot more work. 
+
+		Or we try to force unrelated programming in parts trying to avoid relationships and interdependencies in the code as much as possible. 
+
+		All this seems to be really hard to do and with possible messy outcomes. Summarizing it up, i am really not able to clearly imagine doing it without version control.. but i guess this was just normal until a couple of years ago. 
