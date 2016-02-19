@@ -8,3 +8,14 @@ Question 2:
 	
 	Answer:
 		It contains meta information on the current status of the relation between the files in the working directory and the version control system. Here you can setup the version control prior to uploading any changes that will be fixed in the version control log. This seems helpfull to sanity check any commits before actually processing them. 
+
+Question 3: 
+"How can you use the staging area to make sure you have one commti per logical change?"
+	
+	Answer:
+		After completing the changes that i am working on i do:
+		- check the status of current file changes (git status)
+		- double check the changes introduced with (git diff)
+		- then add the files i want to commit (git add <file>)
+		- and discard any changes i do not want to commit (git reset)
+		- then commit (git commit) with a description on what i have introduced in this version

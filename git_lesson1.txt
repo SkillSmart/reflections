@@ -50,20 +50,21 @@ question 5:
 
 	answer: 
 		as i can always easily refer back to a working version before i did change something, i can just introduce a new feature and check out how it behaves. If i end up running into problems i did not realize at the beginning (dependencies etc.) i can just refer back to the original and try something else instead.As it just involves 2 simple commands i can use directly from the bash it's really always there for me to work on. AWESOME!!
- Concept Map: 
+ 
+ Question 6:
+"What are some situations when branches would be helpful in keeping your history organized? How would branches help?"
 
- 	Version Control Systems in use: 
- 		Manual saving
- 		dropbox
- 		google docs
- 		wikipedia
- 		GIT 
- 		SVN
+	Answer:
+		when i decide to introduce a new Feature and want to run an A/B test i can use branches to develop those two versions up to the point where i can decide which of them to use.  
 
-	GIT Commands: 
-		log (brings up the commits in a git repository)
-		diff (Takes two versions and compares the differences)
-		clone (clones an existing repository on github)
+Question 7:
+"How do the diagrams help you visualize the branch structure?"
+
+	Answer:
+		the help me see:
+		- When a branch was introduced in the history of the main branch
+		- How many parallel branches are currently beeing developed
+		- When these branches will be reintroduced into the main branch
+		- How far ahead any of these branches already are, and if there are any changes that have been introduced that contradict the current working on one branch. 
+
 		
-	Git Best-Practice:
-		"one commit per logical change" - Commit in parts of logically seperable manner. 
