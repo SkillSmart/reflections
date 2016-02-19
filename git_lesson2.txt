@@ -1,0 +1,10 @@
+Question 1: 
+"What happens when you initialize a repository? Why do you need to do it?"
+	Answer:
+		The files within the directory are tracked and the documentation is set up to record any changes to a recording of version control within the directory. There are no initial commits taken, so without specific information no changes are tracked yet.
+
+Question 2:
+"How is the staging area different from the working directory and the repository= What value do you think it offers?"
+	
+	Answer:
+		It contains meta information on the current status of the relation between the files in the working directory and the version control system. Here you can setup the version control prior to uploading any changes that will be fixed in the version control log. This seems helpfull to sanity check any commits before actually processing them. 
